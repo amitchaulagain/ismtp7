@@ -14,8 +14,12 @@ public class Mammal {
      *
      * */
 
+
+
+
     public Mammal(String scientificName) {
         System.out.println("initilialise this object ");
+        System.out.println("hello git");
         Fruit fruit = new Fruit();
         //fruit.
        // fruit.set
