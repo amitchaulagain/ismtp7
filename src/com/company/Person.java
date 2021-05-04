@@ -5,11 +5,6 @@ package com.company;
 /*
 * Java support multi-level inheritance but not multiple inheritance
 *
-*
-*  git branch crud-feature
-* git checkout crud-feature
-
- *
 * */
 public class Person extends Mammal {
     private String fName;
@@ -38,6 +33,11 @@ public class Person extends Mammal {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+
+    public void delete(){
+        System.out.println("Deleting Person");
     }
 
     Person(){
