@@ -3,11 +3,8 @@ package com.company;
 
 public class Csit {
 
-
-
     public static void main(String[] args) {
         Csit csit = new Csit();
-        Fruit fruit = csit.set("Mustang");
         // System.out.println(fruit.getName() + " " + fruit.getColor() + " " + fruit.getWeight());
 
     }

@@ -10,7 +10,6 @@ public class Collections  {
 
         List<String> values1 = new ArrayList<>();
 
-
         values1.add("apple");
         values1.add("apple");
         values1.add("ball");
