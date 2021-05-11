@@ -15,6 +15,10 @@ public class Person extends Mammal {
         return fName;
     }
 
+    /**
+     *
+     * @param fName
+     */
     public void setfName(String fName) {
         this.fName = fName;
     }
