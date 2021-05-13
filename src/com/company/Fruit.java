@@ -30,14 +30,16 @@ public final class Fruit  {
 
     }
 
-
-
     public Fruit() {
+    }
+
+    public Fruit(String name, Integer weight) {
 
         this.name = name;
         this.weight = weight;
         // pi = 3.14;
     }
+
 
 
     public final String getName() {
