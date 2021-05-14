@@ -1,3 +1,4 @@
+package com.company.spliterator;
 import java.util.*;
 
 public class SpliteratorExample {
