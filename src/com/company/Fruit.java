@@ -37,6 +37,8 @@ public final class Fruit  {
 
         this.name = name;
         this.weight = weight;
+
+
         // pi = 3.14;
     }
 
