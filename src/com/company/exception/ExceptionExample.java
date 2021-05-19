@@ -1,9 +1,5 @@
 package com.company.exception;
 
-import com.company.Fruit;
-
-import java.io.FileNotFoundException;
-
 public class ExceptionExample {
 
 
@@ -22,21 +18,31 @@ public class ExceptionExample {
 
         try {
 
-           // int y = 100 / 0;
-            if (inputAmount > balance) {
-                throw new InSufficientBalance();
-            }
+
+            throw new ArithmeticException("null value");
+
+            // int y = 100 / 0;
+//            if (inputAmount > balance) {
+//                throw new InSufficientBalance("Not enough balance Exception code :100");
+//            }
 
         } catch (NullPointerException e) {
             System.out.println(e);
         } catch (IndexOutOfBoundsException f) {
             System.out.println(f);
+        } finally {
+            close();
         }
 
         System.out.println("program complete");
         System.out.println("program complete 1");
         System.out.println("program complete 2");
 
+
+    }
+
+    private static void close() {
+        System.out.println("closing the resources ");
 
     }
 
