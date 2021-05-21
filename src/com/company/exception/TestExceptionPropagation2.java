@@ -3,10 +3,10 @@ package com.company.exception;
 import java.io.IOException;
 
 public class TestExceptionPropagation2{
-  void m(){  
+  void m() throws IOException{
     throw new IOException("device error");//checked exception
   }  
-  void n(){  
+  void n() throws IOException{
     m();  
   }  
   void p(){  
@@ -14,7 +14,7 @@ public class TestExceptionPropagation2{
     n();  
    }catch(Exception e){System.out.println("exception handeled");}  
   }  
-  public static void main(String args[]){  
+  public static void main(String args[]) throws Exception{
    TestExceptionPropagation2 obj=new TestExceptionPropagation2();  
    obj.p();  
    System.out.println("normal flow");  
